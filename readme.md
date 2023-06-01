@@ -18,12 +18,6 @@ That was fun! It took me around 5 hours to build it and understand what I was do
 
 Call me weird but I love CSS! And since we haven’t been allowed to use Javascript in the front end, that would have made much easier to change classes of elements, I had a nut to crack. My goal was it provide a submit and a reset button when the input field is focused.
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="Search:focus-within" src="https://codepen.io/PDXIII/embed/preview/dygBwQE?default-tab=" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/PDXIII/pen/dygBwQE">
-  Search:focus-within</a> by Peter Sekan (<a href="https://codepen.io/PDXIII">@PDXIII</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
-
 I found the solution with the `:focus-within` pseudo class. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within) provides a very nice documentation about it. Applied to a parent it is triggered when any child is focused.
 
 ```css
